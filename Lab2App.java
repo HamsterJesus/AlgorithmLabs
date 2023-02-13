@@ -92,7 +92,7 @@ public class Lab2App {
     //logarithmic search algorithmn (must use sorted array)
     static int BinarySearch(int[] input, int target){
         //define high low and mid
-        int count = 0;
+        count = 0;
         int low = 0;
         int high = input.length-1;
         int mid = 0;
