@@ -1,12 +1,14 @@
 public class Fibonacci{
     public static void main(String[] args){
-        System.out.println(Fibonacci(4));
+        System.out.println(fibonacci(5));
     }
 
-    static int Fibonacci(int n){
+    //actual method
+    static int fibonacci(int n){
+        //int count 
         if(n<=2){
             return n -1;
         }
-        return Fibonacci(n-1) + Fibonacci(n-2);
+        return fibonacci(n-1) + fibonacci(n-2);
     }
 }
