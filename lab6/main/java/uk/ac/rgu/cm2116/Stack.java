@@ -1,5 +1,6 @@
 package uk.ac.rgu.cm2116;
 
+//yup
 public class Stack<T> implements AbstractStack<T>{
     private Object[] stack;
     private int top;
